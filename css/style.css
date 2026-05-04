@@ -6,6 +6,46 @@
   --accent-second-color : #FFFFFF;
   --accent-color : #2196F3;
   --bg-footer-color: #2F303A;
-  --main-font: "Roboto" , sans-serif;
   --second-font:"Raleway", sans-serif ;
+  --main-font:"Roboto",sans-serif;
+}
+body{
+  font-family:var(--main-font);
+}
+.header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero{
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+.teamwork{
+padding-top: 94px ;
+padding-bottom: 94px;
+}
+
+.work{
+  padding-bottom: 94px;
+}
+
+.team{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.container{
+width: 1600px;
+height: 2346px;
 }
