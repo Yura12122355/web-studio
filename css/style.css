@@ -28,6 +28,7 @@ body{
 .teamwork{
 padding-top: 94px ;
 padding-bottom: 94px;
+
 }
 
 .work{
@@ -36,7 +37,10 @@ padding-bottom: 94px;
 
 .team{
   padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
+  background-color: #F5F4FA ;
+height: 648px;
+
 }
 
 .footer{
@@ -45,7 +49,105 @@ padding-bottom: 94px;
 }
 
 
-.container{
-width: 1600px;
-height: 2346px;
+.header-nav_list{
+ display: flex;
+ gap: 50px ;
+}
+
+.header-contact_list{
+  display: flex ;
+  gap: 50px ;
+}
+.hero{
+  background-color: #2F303A;
+}
+
+.hero-title{
+  font-size: 44px;
+  color: white;
+  font-weight: 900;
+}
+
+.hero-btn{
+  background-color: #2196F3;
+  color: white;
+  border-radius: 4px;
+  width: 216px;
+  height: 40px;
+ margin-top: 30px;
+}
+
+
+.teamwork-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.teamwork-title{
+  font-weight: 700;
+
+}
+
+.teamwork-text{
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  margin-top: 10px
+}
+
+.work-title{
+  font-weight: 700;
+  font-size: 36px ;
+  text-align: center;
+}
+
+.work-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.team-title{
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team-list{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.team-item{
+  background-color: white;
+  width: 270px;
+  height: 368px;
+  gap: 30px;
+  text-align: center;
+
+}
+
+.team-name{
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team-worker{
+  font-size: 16px;
+  color: #757575;
+}
+
+.footer{
+  background-color: #2F303A;
+  padding-left: 215px ;
+}
+
+.footer-link:nth-child(){
+color: white;
 }
