@@ -16,7 +16,7 @@ body{
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
-  justify-content: space-around;
+
 }
 
 .hero{
@@ -150,4 +150,10 @@ height: 648px;
 
 .footer-link:nth-child(){
 color: white;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  
 }
