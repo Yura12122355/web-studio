@@ -12,6 +12,12 @@
 body{
   font-family:var(--main-font);
 }
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  padding: 15px;
+}
 .header{
   padding-top: 24px;
   padding-bottom: 25px;
@@ -80,7 +86,7 @@ height: 648px;
 
 .teamwork-list{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
@@ -152,8 +158,3 @@ height: 648px;
 color: white;
 }
 
-.container{
-  width: 1170px;
-  margin: 0 auto;
-  
-}
