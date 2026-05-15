@@ -46,7 +46,7 @@ padding-bottom: 94px;
   /* padding-bottom: 94px; */
   background-color: #F5F4FA ;
 height: 648px;
-
+ 
 }
 
 .footer{
@@ -158,3 +158,46 @@ height: 648px;
 color: white;
 }
 
+
+.container-projects{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.projects-item{
+  width: 370px;
+ 
+}
+
+.projects-developer{
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+.description{
+  font-size: 16px;
+  color: #757575;
+  font-weight: 400;
+  padding-top: 4px;
+}
+
+.projects-list{
+  width: 442px;
+  display: flex;
+  margin: 0 auto;
+  gap: 8px;
+  
+}
+
+.projects-logo-btn{
+  gap: 8px;
+  font-size: 16px;
+}
+
+.projects-btn{
+  font-size: 16px;
+}
