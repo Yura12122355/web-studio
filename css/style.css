@@ -16,7 +16,8 @@ body{
   width: 1170px;
   margin: 0 auto;
   outline: 2px solid red;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header{
   padding-top: 24px;
@@ -161,10 +162,13 @@ color: white;
 
 .container-projects{
   display: flex;
+
+   
   flex-wrap: wrap;
   gap: 30px;
   width: 1170px;
   margin: 0 auto;
+  
 }
 
 .projects-item{
