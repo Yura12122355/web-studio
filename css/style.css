@@ -162,7 +162,7 @@ height: 648px;
 
 .footer{
   background-color: var(--bg-footer-color);
-  padding-left: 215px ;
+ 
 }
 
 .footer-link:nth-child(){
