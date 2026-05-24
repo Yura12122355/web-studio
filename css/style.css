@@ -89,7 +89,7 @@ height: 648px;
 .hero-btn{
   background-color: var(--accent-color);
   color: var(  --accent-second-color);
-  border-radius: 4px;
+
  padding: 10px 32px 10px 32px;
  margin-top: 30px;
 }
@@ -165,16 +165,13 @@ height: 648px;
  
 }
 
-.footer-link:nth-child(){
-color: var(  --accent-second-color);
-}
 
 
 
 
-.projects-item_btn{
- border-radius: 15px;
- 
+.projects-btn{
+ border-radius: 4px;
+ border: 1px solid var(--bg-color);
 }
 .projects-list{
   display: flex;
