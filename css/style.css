@@ -54,11 +54,11 @@ padding-bottom: 94px;
   padding-bottom: 94px;
 }
 
-.team{
+.teamwork{
   padding-top: 94px;
-  /* padding-bottom: 94px; */
+  padding-bottom: 94px;
   background-color: var(--bg-color) ;
-height: 648px;
+
  
 }
 
@@ -177,7 +177,7 @@ height: 648px;
   display: flex;
 justify-content: center;
 gap: 8px;
-  margin-bottom: 34px ;
+padding-bottom: 34px;
 }
 .projects-developer{
   font-weight: 700;
