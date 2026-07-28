@@ -94,7 +94,32 @@ padding-bottom: 94px;
  margin-top: 30px;
 }
 
+.teamwork-item:before{
+background: var(--bg-color) ;
+content: "" ;
+display: block;
+height: 120px;
+width: 270px;
+margin-bottom: 20px;
+background-size: 70px;
+background-position: center;
+background-repeat: no-repeat;
+}
+.teamwork-item:first-child:before{
+background-image: url(../images/satellite.png);
+}
 
+.teamwork-item:nth-child(2):before{
+background-image: url(../images/clock.png);
+}
+
+.teamwork-item:nth-child(3):before{
+  background-image: url(../images/diagram.png)
+}
+
+.teamwork-item:nth-child(4):before{
+  background-image: url(../images/astronaut.png)
+}
 .teamwork-list{
   display: flex;
   justify-content: space-between;
