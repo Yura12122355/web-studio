@@ -41,7 +41,9 @@ body{
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--bg-footer-color);
+  background-position: center;
+  background-image: url(../images/background\ image.png);
+  background-repeat: no-repeat;
 }
 
 .team{
@@ -67,7 +69,13 @@ padding-bottom: 94px;
   padding-bottom: 60px;
 }
 
+.header-nav_link:hover{
+ color: var(--accent-color);
+}
 
+.header-contact_link:hover{
+color: var(--accent-color);
+}
 .header-nav_list{
  display: flex;
  gap: 50px ;
@@ -89,9 +97,9 @@ padding-bottom: 94px;
 .hero-btn{
   background-color: var(--accent-color);
   color: var(  --accent-second-color);
-
  padding: 10px 32px 10px 32px;
  margin-top: 30px;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .teamwork-item:before{
@@ -166,11 +174,10 @@ background-image: url(../images/clock.png);
 
 .team-item{
   background-color:  var(  --accent-second-color);
- 
-  
   gap: 30px;
   text-align: center;
-
+  padding-bottom: 30px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2) , 0px 1px 1px 0px rgba(0, 0, 0, 0.14) ,  0px 1px 3px 0px rgba(0, 0, 0, 0.12) ;
 }
 
 .team-name{
@@ -238,6 +245,7 @@ padding-bottom: 34px;
   font-size: 16px;
  background-color: var(--bg-color) ;
 }
+
 .projects-btn:hover{
  background-color: var(--accent-color);
 }
@@ -246,6 +254,9 @@ padding-bottom: 34px;
   padding-bottom: 94px;
 }
 
+.projects-item:first-child{
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
 .footer-link_contact{
  color: (var(--text-color));
 }
