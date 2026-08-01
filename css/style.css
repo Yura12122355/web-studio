@@ -8,6 +8,7 @@
   --bg-footer-color: #2F303A;
   --second-font:"Raleway", sans-serif ;
   --main-font:"Roboto",sans-serif;
+  --logo-color: #000000;
 }
 body{
   font-family:var(--main-font);
@@ -22,7 +23,17 @@ body{
   display: flex;
   align-items: center;
 }
+.header-logo{
+  font-weight: 700;
+  font-size: 26px;
+  font-family: var(--second-font);
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
 
+.header-logo span{
+  color: var(--accent-color);
+}
 .header-wrapper{
   width: 100%;
   display: flex;
@@ -258,14 +269,25 @@ padding-bottom: 34px;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 }
 .footer-link_contact{
- color: (var(--text-color));
+ color: (var(--accent-second-color));
+ font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+ opacity: 0.6;
 }
 
 
-.footer-logo-link{
-  color: #757575;
+.footer-logo{
+  color: var(--accent-second-color);
   font-size: 26px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-family: var(--second-font);
 }
-.footer-link_adress{
- color: var(--bg-color);
+
+.footer-logo span{
+  color: var(--accent-color);
+}
+.footer-link_address{
+ color: var(--accent-second-color);
 }
