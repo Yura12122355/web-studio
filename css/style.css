@@ -42,7 +42,7 @@ body{
 .header{
   padding-top: 24px;
   padding-bottom: 25px;
-  display: flex;
+  display: flex ;
 
 }
 .header-title{
@@ -55,6 +55,7 @@ body{
   background-position: center;
   background-image: url(../images/background\ image.png);
   background-repeat: no-repeat;
+  background-size: cover ;
 }
 
 .team{
@@ -79,9 +80,13 @@ padding-bottom: 94px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.header-nav_link{
+  color: var(--logo-color);
 
+}
 .header-nav_link:hover{
  color: var(--accent-color);
+ 
 }
 
 .header-contact_link:hover{
@@ -90,6 +95,7 @@ color: var(--accent-color);
 .header-nav_list{
  display: flex;
  gap: 50px ;
+
 }
 
 .header-contact_list{
@@ -215,7 +221,13 @@ background-image: url(../images/clock.png);
 .projects-btn{
  border-radius: 4px;
  border: 1px solid var(--bg-color);
+ padding: 6px 23px 6px 26px;
+ font-weight: 500;
+ letter-spacing: 0.03em;
+ font-size: 16px;
 }
+
+
 .projects-list{
   display: flex;
 justify-content: center;
